@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+.nav-main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quantity-container{
+    position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.items-icon{
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.items-div{
+    background-color: white;
+    color: black;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-delete{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.btn-delete-all{
+    background-color: blueviolet !important;
+    margin-bottom: 20px;
+}
+
+.item-main-container{
+    display: flex;
+    background-color:white;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.item-container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 150px;
+    text-align: right;
+}
+
+img{
+    width: 50vw;
+    object-fit: cover;
+}
+
+.card-info{
+    text-align: right;
+}
+
+.card-icon-btn{
+    background-color: white;
+    border: none;
 }
